@@ -1,0 +1,1013 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"or",
+				"origin_usage〔variable〕"
+			],
+			[
+				"lis",
+				"list_param"
+			],
+			[
+				"li",
+				"list_param"
+			],
+			[
+				"fi",
+				"filename"
+			],
+			[
+				"file",
+				"fileinput"
+			],
+			[
+				"max",
+				"max_freq_window〔variable〕"
+			],
+			[
+				"maxfreq",
+				"max_freq_window〔variable〕"
+			],
+			[
+				"fin",
+				"filename〔variable〕"
+			],
+			[
+				"m",
+				"main"
+			],
+			[
+				"max_fre",
+				"max_freq_window"
+			],
+			[
+				"e",
+				"each_window"
+			],
+			[
+				"ea",
+				"each_window〔variable〕"
+			],
+			[
+				"fail",
+				"fail_time〔variable〕"
+			],
+			[
+				"fa",
+				"fail_time〔variable〕"
+			],
+			[
+				"data",
+				"datalist"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"diff",
+				"diff_data〔variable〕"
+			],
+			[
+				"us",
+				"usage_data"
+			],
+			[
+				"x",
+				"x_axis"
+			],
+			[
+				"get",
+				"getQueryString〔function〕"
+			],
+			[
+				"base",
+				"base_dir〔variable〕"
+			],
+			[
+				"cu",
+				"curr_diff〔variable〕"
+			],
+			[
+				"curr",
+				"curr_cpu〔variable〕"
+			],
+			[
+				"di",
+				"diff_min〔variable〕"
+			],
+			[
+				"wr",
+				"write_lines〔variable〕"
+			],
+			[
+				"line",
+				"line_list〔variable〕"
+			],
+			[
+				"time",
+				"time_index〔variable〕"
+			],
+			[
+				"make",
+				"makedirs〔function〕"
+			],
+			[
+				"glo",
+				"global〔keyword〕"
+			],
+			[
+				"out",
+				"output_prefix"
+			],
+			[
+				"el",
+				"else〔keyword〕"
+			],
+			[
+				"res",
+				"res_line〔variable〕"
+			],
+			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"min",
+				"min_value"
+			],
+			[
+				"bas",
+				"base_dir〔variable〕"
+			],
+			[
+				"csv",
+				"csv_reader〔variable〕"
+			],
+			[
+				"ou",
+				"output_path〔variable〕"
+			],
+			[
+				"etc",
+				"etc_file"
+			],
+			[
+				"w",
+				"writelines〔function〕"
+			],
+			[
+				"one",
+				"one_interval〔variable〕"
+			],
+			[
+				"final",
+				"final_list〔variable〕"
+			],
+			[
+				"on",
+				"one_interval〔variable〕"
+			],
+			[
+				"__",
+				"__len__"
+			],
+			[
+				"read",
+				"readline〔function〕"
+			],
+			[
+				"f",
+				"fail_time_file"
+			],
+			[
+				"fil",
+				"filename〔argument〕"
+			],
+			[
+				"cur",
+				"curr_task_id〔variable〕"
+			],
+			[
+				"conf",
+				"conf_file〔variable〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/VPN_File/CRL IES Profile.pcf",
+			"settings":
+			{
+				"buffer_size": 613,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import csv\n\ndef main():\n	deal_file()\n\ndef deal_file(filename):\n	with open(filename) as csvfile:\n		reader = csv.reader(csvfile)\n		for x in xrange(0,reader.__len__()):\n			for y in xrange(x,reader.__len__())\n				varr(x,y,reader)\n\nif __name__ == '__main__':\n	main()",
+			"file": "findsmooth.py",
+			"file_size": 0,
+			"file_write_time": 130799298794481024,
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cal_ts_diff_normalizing.py",
+			"settings":
+			{
+				"buffer_size": 791,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cal_time_window_new.py",
+			"settings":
+			{
+				"buffer_size": 1431,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "split_time_window.py",
+			"settings":
+			{
+				"buffer_size": 1939,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "split_time_window_avg.py",
+			"settings":
+			{
+				"buffer_size": 3286,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "[0, 423]\n[423, 559]\n[559, 560]\n[560, 561]\n[561, 562]\n[562, 563]\n[563, 564]\n[564, 565]\n[565, 566]\n[566, 569]\n[569, 570]\n[570, 572]\n[572, 575]\n[575, 577]\n[577, 578]\n[578, 579]\n[579, 580]\n[580, 581]\n[581, 582]\n[582, 583]\n[583, 584]\n[584, 585]\n[585, 586]\n[586, 588]\n[588, 588]",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Windows",
+				"name": "[0, 423]"
+			}
+		},
+		{
+			"file": "KillerTaskPredict.py",
+			"settings":
+			{
+				"buffer_size": 2146,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cal_ts_diff.py",
+			"settings":
+			{
+				"buffer_size": 1299,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/output/task_fail/task_fail_combie",
+			"settings":
+			{
+				"buffer_size": 14307019,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "split_200_next.py",
+			"settings":
+			{
+				"buffer_size": 764,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/apache-tomcat-7.0.62/webapps/DA/index.html",
+			"settings":
+			{
+				"buffer_size": 4046,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/apache-tomcat-7.0.62/webapps/DA/diff/fail_200-test.csv",
+			"settings":
+			{
+				"buffer_size": 157,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/apache-tomcat-7.0.62/webapps/DA/diff/fail_200-3998246386-0.csv",
+			"settings":
+			{
+				"buffer_size": 180082,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"Package Control: rm",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 50.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/apache-tomcat-7.0.62/webapps/DA/diff/fail_200-5843571754-0.csv",
+		"/E/src/python/fre_windowSize.csv",
+		"/E/src/python/fail_1_smooth.csv",
+		"/F/output/fail_500_failtime/5389889218-8.txt",
+		"/C/apache-tomcat-7.0.62/webapps/DA/diff/fail_200-4430762995-1.csv",
+		"/F/output/fail_500_failtime/3998246386-0.txt",
+		"/E/src/python/log",
+		"/E/src/Scala/ExtractTaskFailTime.scala",
+		"/E/src/python/findtaskFailTime.py",
+		"/E/src/Scala/TaskCount.scala",
+		"/E/research/ATT0004.ext",
+		"/E/src/python/cal_time_window.py",
+		"/E/src/python/clean_ts_1.py",
+		"/E/src/python/cal_prediction_time.py",
+		"/E/src/python/findtask_fail_1.py",
+		"/E/src/python/findtask_batch.py",
+		"/E/src/R/fail_task_predict_template.R",
+		"/E/src/python/findstart_and_fail.py",
+		"/E/src/python/generate_r_memplot.py",
+		"/F/output/fail_500_failtime/4430762995-1.txt",
+		"/F/output/task_fail/task_fail_combie",
+		"/C/apache-tomcat-7.0.62/webapps/DA/diff/fail_200-3998246386-0.csv",
+		"/C/apache-tomcat-7.0.62/webapps/DA/diff/test.csv",
+		"/C/apache-tomcat-7.0.62/webapps/DA/fail_200_1874/test.csv",
+		"/E/src/python/split_task_events.py",
+		"/E/src/python/fail_time_spark_trans.py",
+		"/E/src/python/findThreshold.py",
+		"/F/output/etc/fail_1_and_top3000.csv",
+		"/E/src/Scala/TaskResourceById.scala",
+		"/F/output/task_events_op/part-r-00000",
+		"/F/output/task_events_op/task_event_combine",
+		"/E/src/python/clean_ts.py",
+		"/F/output/task_events_op/part-r-00015",
+		"/E/src/python/extractTaskUsage.py",
+		"/F/output/etc/fail_200_next_3k.csv",
+		"/F/output/etc/fail_200_next_3k.cvs",
+		"/F/output/etc/fail_1_time_top100（1）.csv",
+		"/E/src/python/splitTaskEvents.py",
+		"/E/src/python/split_1_and_3000.py",
+		"/E/src/python/split_1_top100.py",
+		"/E/src/python/split_500task.py",
+		"/E/src/python/fail_1_100.csv",
+		"/F/output/etc/fail_1_top3000.csv",
+		"/F/output/fail_1/fail_1_combine",
+		"/F/output/fail_1/part-00000",
+		"/E/src/python/cal_ts_diff.py",
+		"/F/output/etc/fail",
+		"/E/src/python/findtask.py",
+		"/F/output/etc/500_targetjob.csv",
+		"/F/output/fail_1/fail_1_2900_1.csv",
+		"/F/output/etc/targetjob.csv",
+		"/F/output/fail_1/fail_1_2900.csv",
+		"/F/output/etc/targetjob_fail_1.csv",
+		"/F/output/etc/targetjob_no_zero.csv",
+		"/E/src/python/clean_ts_500.py",
+		"/F/output/fail_1/fail_1_time_top100.csv",
+		"/F/output/fail_1_top100/part-00000",
+		"/F/output/etc/fail_1.csv",
+		"/F/data/test/fail500-698645235-0.csv",
+		"/E/src/R/6316376295.R",
+		"/E/src/R/6130716573.R",
+		"/E/src/R/6274166915.R",
+		"/C/Users/ThinK/Desktop/tab.txt",
+		"/F/output/cpu/part-00000",
+		"/F/output/fail_500/part-00000",
+		"/F/output/etc/mid_targetjob.csv",
+		"/E/src/R/5285926325.R",
+		"/E/src/R/6111537791.R",
+		"/E/src/R/6353820544.R",
+		"/E/src/R/6316376215.R",
+		"/E/src/R/6212822642.R",
+		"/E/src/R/fail_task_predict.R",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/F/output/task_fail/part-00000",
+		"/E/IdeaProjects/TaskCount/src/TaskCount.scala",
+		"/E/src/python/test.py",
+		"/F/output/etc/targetjob_none_zero.csv",
+		"/F/output/cpu/part-02353",
+		"/F/output/cpu/part-02347",
+		"/F/output/cpu/part-00268",
+		"/F/output/cpu/part-00002",
+		"/F/output/cpu/part-00001",
+		"/E/研究工作/TaskCount.scala",
+		"/F/output/task_fail/part-00296",
+		"/F/output/task_fail/part-00001",
+		"/F/output/task_fail/part-00002",
+		"/F/output/cpu/part-02264",
+		"/F/output/etc/targetjob",
+		"/F/data/task_usage_csv/part-00000-of-00500.csv",
+		"/F/output/task_fail/part-00004",
+		"/F/output/task_fail/part-00007",
+		"/F/output/task_fail/part-00042",
+		"/F/output/task_fail/part-00101",
+		"/F/output/task_fail/part-00263",
+		"/F/output/task_fail/._SUCCESS.crc",
+		"/E/src/C/tail.c",
+		"/C/Users/ThinK/AppData/Roaming/Sublime Text 2/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/ThinK/AppData/Roaming/Sublime Text 2/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/ThinK/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/ThinK/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/E/src/python/python.sublime-project",
+		"/C/Users/ThinK/AppData/Roaming/Sublime Text 2/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/C/Users/ThinK/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/ThinK/AppData/Roaming/Sublime Text 2/Packages/Jedi - Python autocompletion/README.md",
+		"/C/Users/ThinK/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ThinK/AppData/Roaming/Sublime Text 2/Packages/User/sublime_jedi.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"origin",
+			"5285926325",
+			",0.0",
+			",5",
+			",1",
+			" ",
+			")",
+			"(",
+			"6418398595,68,240",
+			"\\(6336594489,\\d+,\\d+\\)",
+			"6336594489,3464,242",
+			")",
+			"(",
+			",6,",
+			".csv",
+			"-",
+			"fail1-",
+			"-",
+			".csv",
+			"fail_1-",
+			"#",
+			"(",
+			"#",
+			")",
+			"(",
+			"#",
+			")",
+			"(",
+			"6251441029#175",
+			"(",
+			",,",
+			"6258695096,\\d+,\\d+",
+			"6258695096+",
+			"6258695096",
+			",995",
+			"6258695096",
+			")",
+			"(",
+			"6258695096",
+			"(",
+			")",
+			"(",
+			"6324858588",
+			"-Inf",
+			" ",
+			">",
+			"test set",
+			"training set",
+			" ",
+			"Theil's U",
+			"ME        RMSE          MAE       MPE     MAPE      MASE       ACF1 Theil's U",
+			"                        ME        RMSE         MAE        MPE      MAPE      MASE       ACF1 Theil's U",
+			"                       ME        RMSE         MAE       MPE     MAPE      MASE      ACF1 Theil's U",
+			"571",
+			"1",
+			"471",
+			"158",
+			"710",
+			"109",
+			"158",
+			"6316376261",
+			"(",
+			")",
+			"initialize_main",
+			"codeintel_config"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/VPN_File/CRL IES Profile.pcf",
+					"settings":
+					{
+						"buffer_size": 613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "findsmooth.py",
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cal_ts_diff_normalizing.py",
+					"settings":
+					{
+						"buffer_size": 791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "cal_time_window_new.py",
+					"settings":
+					{
+						"buffer_size": 1431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1431
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "split_time_window.py",
+					"settings":
+					{
+						"buffer_size": 1939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1939
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "split_time_window_avg.py",
+					"settings":
+					{
+						"buffer_size": 3286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3028,
+								3035
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[0, 423]",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "KillerTaskPredict.py",
+					"settings":
+					{
+						"buffer_size": 2146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "cal_ts_diff.py",
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/F/output/task_fail/task_fail_combie",
+					"settings":
+					{
+						"buffer_size": 14307019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								794,
+								794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "split_200_next.py",
+					"settings":
+					{
+						"buffer_size": 764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								402
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/apache-tomcat-7.0.62/webapps/DA/index.html",
+					"settings":
+					{
+						"buffer_size": 4046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/apache-tomcat-7.0.62/webapps/DA/diff/fail_200-test.csv",
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/apache-tomcat-7.0.62/webapps/DA/diff/fail_200-3998246386-0.csv",
+					"settings":
+					{
+						"buffer_size": 180082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46486,
+								46488
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 38992.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true
+}

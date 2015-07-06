@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="height:870px"></div>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <!-- ECharts单文件引入 -->
+    <script src="js/echarts-all.js"></script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts图表
+        function getQueryString(name) { 
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+            var r = window.location.search.substr(1).match(reg); 
+            if (r != null) return unescape(r[2]); return null; 
+            } 
+
+        var myChart = echarts.init(document.getElementById('main')); 
+        var x_axis=[]
+        var diff_data=[]
+        var usage_data=[]
+        $.ajax({
+                url: 'diff/fail_200-'+getQueryString("task")+'.csv',
+                dataType: 'text',
+                success: function(csv_data) {
+                    datalist = csv_data.split('\n');
+                    for(i = 0 ; i<datalist.length; i ++){
+                        item_list = datalist[i].split(',')
+                        window.x_axis.push(item_list[0])
+                        window.diff_data.push(parseFloat(item_list[1]));
+                    }
+                },
+                async: false
+            });
+         $.ajax({
+                url: 'ts/fail_200-'+getQueryString("task")+'.csv',
+                dataType: 'text',
+                success: function(csv_data) {
+                    datalist = csv_data.split('\n');
+                    for(i = 0 ; i< datalist.length; i ++){
+                        item_list = datalist[i].split(',')
+                        window.usage_data.push(parseFloat(item_list[5]));
+                    }
+                },
+                async: false
+            });
+
+        var option = {
+            tooltip : {
+                trigger: 'axis'
+            },
+            legend: {
+                data:['task_usage','diff']
+            },
+            toolbox: {
+                show : true,
+                feature : {
+                    mark : {show: true},
+                    dataView : {show: true, readOnly: false},
+                    magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+                    restore : {show: true},
+                    saveAsImage : {show: true}
+                }
+            },
+            dataZoom : {
+                show : true,
+                realtime : true,
+                //orient: 'vertical',   // 'horizontal'
+                //x: 0,
+                y: 36,
+                //width: 400,
+                height: 20,
+                start : 0,
+                end : 100
+            },
+            calculable : true,
+            xAxis : [
+                {
+                    type : 'category',
+                    boundaryGap : false,
+                    data : x_axis,
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value',
+                    position: "left",
+                    axisLabel : {
+                            formatter: function (value) {
+                                 // Function formatter
+                                 return value + ' %'
+                             }
+                        },
+                    scale:false
+                },
+                {
+                    type : 'value',
+                    min:0,
+                    max:1.0
+                }
+            ],
+            series : [
+                {
+                    name:'task_usage',
+                    type:'line',
+                    yAxisIndex:0,
+                    data:usage_data
+                },
+                {
+                    name:'diff',
+                    yAxisIndex:1,
+                    type:'line',
+                    data:diff_data
+                },
+                
+            ]
+        };
+         
+        
+
+        // 为echarts对象加载数据 
+        myChart.setOption(option); 
+    </script>
+</body>

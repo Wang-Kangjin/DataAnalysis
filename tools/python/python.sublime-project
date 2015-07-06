@@ -1,0 +1,12 @@
+{
+	 "folders": 
+    [ 
+        { 
+            "follow_symlinks": true, 
+            "path": "E:/src/python" 
+        } 
+    ], 
+	"settings": { 
+        "python_interpreter_path":"C:/Python33/python.exe"
+    } 
+}
